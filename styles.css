@@ -1,0 +1,214 @@
+body {
+  padding: 0%;
+  margin: 0;
+}
+.about-section{
+  display: block;
+  padding-top: 450px;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-color: gray;
+  background-image: linear-gradient(62deg, #3c3c47 0%, #181719 100%);
+}
+#about h1 {
+  color: white;
+  font-size: 75px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#about p {
+  font-size: 50px;
+  color: #3B5998;
+}
+#navbar ul {
+  display: inline-flex;
+ width: 100%;
+ 
+}
+#navbar li {
+  display: block;
+ height: 50px;
+ list-style: none;
+ color: black;
+}
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  z-index: 10;
+  background-color: #3B5998;
+}
+#navbar a {
+  float: right;
+  color: white;
+  width:100px;
+  height: 100%;
+  text-decoration: none;
+}
+#navbar a:hover {
+  float: right;
+  color:black;
+  /*background-color: #55ACEE;*/
+  width:100px;
+  height: 100%;
+  text-decoration: none;
+ 
+}
+.top-nav {
+  height: inherit;
+}
+.project-tile {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.profile-projects
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.project-1 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+  
+}
+.project-1 img {
+ width: 450px;
+ height: 450px;
+}
+.project-2 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+}
+.project-2 img {
+  width: 450px;
+  height: 450px;
+ }
+.project-3 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+}
+.project-3 img {
+  width: 450px;
+  height: 450px;
+ }
+.project-4 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+  
+}
+.project-4 img {
+  width: 450px;
+  height: 450px;
+ }
+.project-5 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+  
+}
+.project-5 img {
+  width: 450px;
+  height: 450px;
+ }
+.project-6 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+  
+}
+.project-6 img {
+  width: 450px;
+  height: 450px;
+ }
+.project-7 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+  
+}
+.project-7 img {
+  width: 450px;
+  height: 450px;
+ }
+.project-8 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+  
+}
+.project-8 img {
+  width: 450px;
+  height: 450px;
+ }
+.project-9 {
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  background-color: black;
+  
+}
+.project-9 img {
+  width: 450px;
+  height: 450px;
+ }
+.profile-projects a{
+  text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 25%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-github {
+  background: #aeadad;;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
